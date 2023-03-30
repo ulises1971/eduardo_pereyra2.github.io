@@ -1,0 +1,29 @@
+.imagen__foto {
+    background: url(../imagenes/foto.jpeg);
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;    
+}
+.persona__nombre{
+    color: #1ad879;
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+.persona {
+    display: flex;
+    flex-direction: column;
+}
+
+/*responsivo*/
+@media(max-width: 768px){
+    .persona__nombre{
+        font-size: 1.5rem;
+
+    }
+}
+

@@ -1,0 +1,36 @@
+.contenido{
+	height: 550px;
+	width: 100%;
+	background-color: rgb(67, 44, 109);
+}
+.contenido2{
+	height: 200px;
+	width: 100%;
+	background-color: grey;
+}
+.container{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+	padding: 15px;
+	
+}
+.titulo{
+	font-size: 1.5rem;
+	text-decoration: underline;
+	font-family: monospace;
+	margin: 14px;
+}
+.parrafo{
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+
+}
+/*responsivo*/
+@media(max-width: 768px) {
+	.contenido{
+		height: 1600px;
+	}
+	
+}

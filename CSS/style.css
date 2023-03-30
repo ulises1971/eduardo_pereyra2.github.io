@@ -1,0 +1,18 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/*responsivo*/
+@media(max-width: 768px){
+    h1{
+        font-size: 2rem;
+    }
+    
+}

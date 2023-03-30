@@ -1,0 +1,136 @@
+.informacion{
+    background-color: beige;
+	
+	
+}
+.flex {
+    display: flex;
+}
+.flex--center {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .flex--column {
+    flex-direction: column;
+}
+
+
+.container {
+	
+    display: flex;
+    align-items: center;
+    padding: 30px;
+   
+  
+
+	
+}
+.informacion-contenido{
+    display:block;
+}
+.informacion-contenido-lista{
+    
+    display: flex;
+	flex-flow: column wrap;
+	height: 300px;
+}
+.informacion-contenido-localizacion{
+    font-size: 30px;
+   
+	margin-left: 5rem;
+    
+}
+
+.informacion-contenido-whatsapp{
+    font-size: 30px;
+    color: green;
+    margin-top: 15px;
+	margin-left: 5rem;
+    
+}
+.informacion-contenido-celular{
+    font-size: 40px;
+    margin-top: 15px;
+	margin-left: 5rem;
+    
+}
+
+.informacion-contenido-instagram{
+    font-size: 30px;
+    color: red;
+    margin-top: 15px;
+	margin-left: 5rem;
+}
+.informacion-contenido-facebook{
+    font-size: 30px;
+    color: blue;
+    margin-top: 15px;
+
+	margin-left: 5rem;
+}
+.informacion-contenido-datos{
+    font-size: 20px;
+    margin-left: 1rem;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+	
+    
+ }
+ .informacion-contenido-lista-dni{
+    font-weight: 700;
+	font-size: 1.3em;
+	margin:  1rem 2.6rem;
+	padding-left: .3em;
+	padding-top: .2em;
+    margin-left: 4rem;
+	
+
+ }
+ .informacion-contenido-datos1{
+    margin-bottom: 16px;
+ }
+ .informacion-contenido-lista-dni1{
+    margin-left: 1rem;
+ }
+.pie{
+    height: 200px;
+	width: 100%;
+	background-color: grey;
+}
+
+ @media(max-width: 768px){
+
+    .informacion-contenido-localizacion  {
+        margin-left: 1rem;
+    }
+    .informacion-contenido-whatsapp{
+        margin-left: 1rem;
+    }
+    .informacion-contenido-celular{
+        margin-left: 1rem;
+    }
+    .informacion-contenido-instagram{
+        margin-left: 1rem;
+    }
+    .informacion-contenido-facebook{
+        margin-left: 1rem;
+    }
+    .informacion-contenido-datos{
+        padding-right: 3rem;
+    }
+   
+    
+    .informacion-contenido-lista-dni{
+        margin-left: 0.6rem;
+    }
+} 
+
+    
+  
+    
+
+
+
+
